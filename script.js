@@ -34,5 +34,18 @@ There are 8 basic data types in JavaScript
 JavaScript is dynamically typed meaning data types are not bound to any one variable.
 
 NUMBER
+The number type represents both integrer and floating point numbers aswell as speccial numeric values ie infinity, NaN.
 
+BigInt
+JavaScript has a limit to the size of the number that can be represented bigint is used to represent numbers over the limit.
+
+String
+A string needs to be surrounded by quotes.
+Backticks (`hello`) are extended functionality quotes they allow us to embed variables and expressions into a string by wrapping them in ${...} for example:
+alert( `Hello, ${name}!` ); // Hello, John! - embeding a varible into a string.
+
+Boolean
+The boolean type only has two values: true and false. It is commonly used to store yes and no values. e.g.
+let nameFieldChecked = true; // yes, name field is checked
+let ageFieldChecked = false; // no, age field is not checked
 */
