@@ -48,4 +48,21 @@ Boolean
 The boolean type only has two values: true and false. It is commonly used to store yes and no values. e.g.
 let nameFieldChecked = true; // yes, name field is checked
 let ageFieldChecked = false; // no, age field is not checked
+
+NULL
+Null is a special value that represents "nothing, "empty" or "value unknown"
+
+UNDEFINED
+If a variable is declared but not assigned a value then it is undefined
+
+OBJECTS and SYMBOLS
+The object type is special. All other data types are primitive because their values can only contain a single thing. Objetcts are used to store collections of data and more complex entities.
+Symbols is used to create unique identifiers for objects.
+
+TYPEOF OPERATOR
+The typeof operator allows us to see which type is stored in a variable.
+
+Two forms: typeof x or typeof(x).
+Returns a string with the name of the type, like "string".
+For null returns "object" – this is an error in the language, it’s not actually an object.
 */
