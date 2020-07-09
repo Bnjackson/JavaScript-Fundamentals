@@ -23,7 +23,7 @@ alert(age);
 
 // To declare a constant (unchanging) variable we use const instead of let. varibles declared const will never change.
 
-const number = "123";
+const digits = "123";
 
 //a common practise is to use constants as alieses for difficult to remember values that are known beforehand. Such constants are named using capital letters and underscores.
 
@@ -65,4 +65,26 @@ The typeof operator allows us to see which type is stored in a variable.
 Two forms: typeof x or typeof(x).
 Returns a string with the name of the type, like "string".
 For null returns "object" – this is an error in the language, it’s not actually an object.
+*/
+
+/*
+INTERACTION: ALERT, PROMPT, CONFIRM
+
+ALERT
+It shows a message and waits for the user to press ok. For example
+alert("hello");
+The mini window with the message is called the modal window. The word modal means the user cant interact with the rest of the page until they have dealt with the window.
+
+PROMPT
+result = prompt(title, [default]);
+Prompt brings up a modal window with a text message and an input field and the buttons ok and cancel.
+The title is the prompt shown to the visitor.
+default is an optional paremeter that sets the intial value for the input field.
+The prompt will return the text or if it was cancelled it will retun null.
+*/
+let number = prompt(`What number?`, 100);
+alert(`The number is ${number}`);
+/*
+CONFIRM
+
 */
