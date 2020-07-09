@@ -88,3 +88,6 @@ alert(`The number is ${number}`);
 CONFIRM
 
 */
+let isBoss = confirm("Are you the boss?");
+
+alert( isBoss ); // true if OK is pressed
