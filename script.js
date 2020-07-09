@@ -86,8 +86,22 @@ let number = prompt(`What number?`, 100);
 alert(`The number is ${number}`);
 /*
 CONFIRM
-
+The confirm function will show a modal window with a question and two buttons OK and cancel. The result is true if OK is pressed and false otherwise.
 */
 let isBoss = confirm("Are you the boss?");
-
 alert( isBoss ); // true if OK is pressed
+
+/*
+TYPE CONVERSIONS
+Most of the time operators and functions automatically convert the values given to them to the right type.
+For example, alert automatically converts any value to a string to show it. Mathematical operations convert values to numbers.
+There are also cases when we need to explicitly convert a value to the expected type.
+
+STRING CONVERSION
+String conversion is used when we need the string form of a value.
+let value = true;
+alert(typeof value); // the value is the boolean type
+
+value = String(value); // now value is a string "true"
+alert(typeof value); // the variable is converted to a string
+*/
