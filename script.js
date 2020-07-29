@@ -104,4 +104,67 @@ alert(typeof value); // the value is the boolean type
 
 value = String(value); // now value is a string "true"
 alert(typeof value); // the variable is converted to a string
+String conversion is mostly obvious. A false becomes "false", null becomes "null", etc.
+
+NUMERIC CONVERSION
+Numeric conversion happens automatically for Mathematical functions and expressions.
+let str = "123";
+alert(typeof str); // string
+
+let num = Number(str); // becomes a number 123
+
+alert(typeof num); // number
+Explicit conversion is usually required when we read a value from a string-based source like a text form but expect a number to be entered.
+
+If the string is not a valid number, the result of such a conversion is NaN.
+
+BOOLEAN CONVERSION
+The conversion rules are:
+Vlaues that are intuitively empty like 0, an empty string, null, undefined , and NaN become false.
+Other values become true.
+
+alert( Boolean("hello") ); // true
+alert( Boolean("") ); // false
+*/
+/*
+COMPARISONS
+Greater/ less than: a > b a < b
+Greter/ less than or equal a >= b a <= b
+Equals a == b
+Not equals a != b
+
+All comparisons operators return a boolean value true or false.
+alert( 2 > 1 );  // true (correct)
+alert( 2 == 1 ); // false (wrong)
+alert( 2 != 1 ); // true (correct)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 */
